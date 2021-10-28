@@ -1,0 +1,411 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>Samsung Kids+</title>
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What it does: Forces Outlook.com to display emails full width. */
+.ExternalClass {
+	width: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#ffffff" width="100%" style="margin: 0; font-family: Tahoma, sans-serif;" >
+
+    <table bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td><center style="width: 100%;">
+
+
+
+
+
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+
+
+
+            <!-- 1 Column Text : BEGIN
+            <tr>
+              <td style="text-align: center; padding: 0 15px 0 15px; font-size: 12px; mso-height-rule: exactly; line-height: 20px; color: #999999; font-family: Tahoma, sans-serif !important;">
+         <br><a href="[weblink]" style="color:#999999; text-decoration: none;">View this email in your browser</a><br><br>
+              </td>
+            </tr> -->
+            <tr>
+            <tr>
+                <td>
+                <table width="95%" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <br>
+    <tr>
+      <td width="30%"><img alt="" src="https://www.kidomi.com/samsungkidsplus/images/empty.jpg" width="30" height="50" style="display: block;" border="0"></td>
+      <td width="40%" align="center" valign="top"><a href="https://kidomi.com/play/signup?partner=samsung"><img alt="" src="https://www.kidomi.com/samsungkidsplus/images/main-logo.jpg" width="105" height="40" style="display: block;" border="0"></a></td>
+      <td style="width: 30%;"><img alt="" src="https://www.kidomi.com/samsungkidsplus/images/empty.jpg" width="30" height="50" style="display: block;" border="0"></td>
+      <!--  <td style="width: 30%; text-align: right;"><strong><a href="https://kidomi.com/samsungkidsplus/francaise.html" target="_blank" style="color:#1BCAE4; font-size: 14px; line-height: 24px; font-family: Tahoma, sans-serif;">Française</a></strong></td>-->
+    </tr>
+  </tbody>
+</table>
+
+                <!-- Button : END --></td>
+              </tr>
+
+            <tr>  <!-- Logo and Counter -->
+                <td style="padding: 30px; text-align:center; font-size:1em; line-height: 1.5em; mso-height-rule: exactly; border-radius: 20px; " bgcolor="#E9F7F6">
+                <!-- Button : Begin -->
+
+                <table cellspacing="0" cellpadding="0" border="0" text-align="center" align="center" style="margin: auto, text-align: center;">
+                    <span style="font-size:18px; line-height: 1.2em; font-weight: bold; color:#000000; font-family: Tahoma, sans-serif;">TIME IS RUNNING OUT</span><br>
+                    <span style="font-size:17px; line-height: 1.2em; font-weight: normal; color:#000000;">You must transition your Samsung Kids+ account to Kidomi to avoid service interruption. </span><br>
+                    <br>
+                    <img src="http://gen.sendtric.com/countdown/1dwruv2npr" style="text-align: center; width:90%!important;max-width:400px!important;" />
+                    <br>
+                    <br>
+                    <a href="https://kidomi.com/play/signup?partner=samsung"><img src="https://kidomi.com/samsungkidsplus/02/re-send_purple.jpg" width="600" alt="Activate Your Free Subscription Now" border="0" align="center" style="width: 90%; max-width: 600px; height: auto;"></a>
+           <br>
+                         <a href="https://kidomi.com/play/signup?partner=samsung&showvideo=true" target="_blank" style="color:#1BCAE4; text-align: center; font-family: Tahoma, sans-serif;">Learn More About Kidomi</a>
+                         <br>
+                         <br>
+                  </table>
+
+                <!-- Button : END --></td>
+              </tr>
+
+              <tr> <!-- Intro Copy -->
+                <td style="padding: 30px 10px 30px 10px; text-align:left; font-size:1em; line-height: 1.5em; mso-height-rule: exactly;">
+                <!-- Button : Begin -->
+
+                <table cellspacing="0" cellpadding="0" border="0" text-align="left" align="center" style="margin: auto, text-align: left;">
+                    <span style="font-size:17px; line-height: 1.2em; font-weight: normal; color:#000000; font-family: Tahoma, sans-serif;">Dear Samsung Kids+ Customer,<br><br>
+                      This is our final notice to remind you that we are shutting down the Samsung Kids+ subscription service on Saturday, <strong>February 20, 2021</strong>.<br><br>
+As a special thank you for being a Samsung Kids+ customer, we are providing an exclusive 3 months free (A $15 Value)* of the award winning Kidomi, brought to you by our valued partner Fingerprint. Bringing you everything kids loved about Samsung Kids+ and more!</span><br>
+                  </table>
+                  </td>
+              </tr>
+
+            <tr>
+              <td>
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/9b2025bbed2247de/321e9e68-66fe-428f-acf0-61a2cef524cb/2214x82.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; padding: 0;">
+              </td>
+            </tr>
+            <tr> <!-- White box -->
+              <td bgcolor="#FFFFFF" valign="middle" style="text-align: left; font-size: 17px; line-height: 1.4em; background-position: center center !important; background-size: cover !important; border-radius: 20px; padding: 30px; color: #505050;">
+                <table>
+                  <span style="font-size: 20px; " >What Should You Do before the Shutdown Date?</span><br>
+                  <br>
+                  <ul>
+                    <li>The 21 apps in the Samsung Kids+ Starter Pack** are yours to keep. Please be sure to download all of the apps in the Starter Pack before <strong>February 20, 2021</strong> in order to keep them accessible on your device(s).</li><br>
+                    <li>Please update your Samsung Kids+ application to the latest build.</li><br>
+                    <li>Please sign up below to start your <strong>3 months free of Kidomi</strong> (a $15 value)*</li><br>
+                  </ul>
+For more information about cancellations, please visit <a href="https://samsungkidsplus.com/transition" target="_blank" style="color:#1BCAE4">https://samsungkidsplus.com/transition</a>
+
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="http://cdn.mcauto-images-production.sendgrid.net/9b2025bbed2247de/321e9e68-66fe-428f-acf0-61a2cef524cb/2214x82.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; padding: 0;">
+              </td>
+            </tr>
+
+            <tr> <!-- For more information -->
+              <td>
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td valign="middle" style="text-align: left; padding: 40px 10px 0 10px; font-size: 16px; line-height: 1.5em; mso-height-rule: exactly; color: #4E4E4E;">
+                        We thank you again for your support of Samsung Kids+. We greatly appreciate your business.<br>
+                        <br>
+                        Sincerely,<br>
+                        The Samsung Kids+ Team<br>
+                        <br>
+
+                        </td>
+                      </tr>
+                  </table>
+
+
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                      <td style="text-align: left; padding: 0 15px 0 15px; font-size: 12px; mso-height-rule: exactly; line-height: 18px; color: #333333; ">
+                        *A US$15 value. Approximately CDN$19, MXN$300,74<br>
+                        <br>
+                        **Starter Pack apps are only available to purchasers of Samsung Kids Tablets.<br>
+                        <br>
+                        Kidomi 3-month trial offer is valid from 12/04/2020 - 04/01/2021. Available for all qualifying US, CA and MX Samsung Kids+ users. By signing up for the kidomi trial offer, you are opting into an auto-renewing subscription at the end of the term unless cancelled prior. The 90 day free trial must be cancelled through the kidomi website (kidomi.com/play) at least 24 hours prior to the first billing date to avoid charges.<br>
+                        <br>
+                        <br>
+                      </td>
+                    </tr>
+                </table>
+              </td>
+            </tr>
+
+                <!-- Button : END -->
+
+            <!-- Background Image with Text : BEGIN -->
+            <tr>
+                <td style="padding: 0; text-align: center">
+                  <a href="https://www.kidomi.com/play/signup?partner=samsung&showvideo=true"><img src="http://cdn.mcauto-images-production.sendgrid.net/9b2025bbed2247de/585a0a51-ffab-4d8e-8f79-fd9295ec47d8/1096x852.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto;"></a>
+                </td>
+            </tr>
+
+            <tr>
+                <td background="" bgcolor="#e9f7f6" valign="middle" style="text-align: center; background-position: center center !important; background-size: cover !important;"><!--[if gte mso 9]>
+                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:175px; background-position: center center !important;">
+                    <v:fill type="tile" src="assets/Responsive/Image_600x230.png" color="#222222" />
+                    <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+
+                <div width="100%">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="80%">
+                    <tr>
+                        <td valign="middle" style="text-align: center; padding: 10px; font-size: 15px; mso-height-rule: exactly; line-height: 20px;">
+                        <br>
+                        <span style="font-size:2em; line-height: 1.5em; color: #DD48D2;  font-family: Tahoma, sans-serif !important;"><strong>Get 3 months free of Kidomi, the award winning all-in-one super app for kids</strong>
+
+                          </span>
+                          <br>
+                          <br>
+                        </td>
+                      </tr>
+                  </table>
+
+
+
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+                  <tr>
+                      <td valign="middle">
+                      <img src="https://kidomi.com/samsungkidsplus/02/white-top.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto;">
+                      </td>
+                    </tr>
+                  </table>
+
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+                  <tr>
+                      <td valign="middle" style="text-align: center; padding: 20px 14% 20px 14%; font-size:16px; line-height: 1.4em; mso-height-rule: exactly; background-color: white; color: #4E4E4E; font-family: Tahoma, sans-serif;">
+                        <span style="font-size:1.3em; line-height: 1.4em; color: #4E4E4E;"><strong>Kidomi is the award winning all-in-one super app for kids</strong></span>
+                        <br>
+
+                        <br>
+                        Thousands of hours of premium games, books and videos from top family brands in multiple languages<br>
+                        <img src="https://kidomi.com/samsungkidsplus/02/star.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; padding: 10px 0 10px 0;">
+                        A curated library all mapped to US Common Core Standards in subjects like Math, Science, STEM, Language Arts, Social Studies, Arts & Creativity and Critical Thinking<br>
+                        <img src="https://kidomi.com/samsungkidsplus/02/star.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; padding: 10px 0 10px 0;">
+                        Trusted parent tools to monitor activity and manage screen time<br>
+
+                        <img src="https://kidomi.com/samsungkidsplus/02/star.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto; padding: 10px 0 10px 0;">For more information, please visit the<br>
+                         <a href="https://kidomi.com/play/signup?partner=samsung&showFAQ=true" target="_blank" style="color:#1BCAE4; text-align: center;">Transition FAQ</a>
+
+                      </td>
+                    </tr>
+                </table>
+
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+                <tr>
+                    <td valign="middle">
+                    <img src="https://kidomi.com/samsungkidsplus/02/white-down.jpg" width="600" alt="Activate Your Free Subscription Now" border="0" align="center" style="width: 100%; max-width: 600px; height: auto;">
+                    <br>
+                    <br>
+                    <a href="https://kidomi.com/play/signup?partner=samsung"><img src="https://kidomi.com/samsungkidsplus/02/re-send_purple.jpg" width="600" alt="Activate Your Free Subscription Now" border="0" align="center" style="width: 90%; max-width: 600px; height: auto;"></a>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td style="text-align: center; padding: 10px 5% 30px 5%; font-family: sans-serif; font-size: 18px; mso-height-rule: exactly; line-height: 1.4em; color: #4E4E4E; font-family: Tahoma, sans-serif;">
+                      Kidomi is everything you loved about Samsung Kids+ and more!
+                      </td>
+                    </tr>
+                </table>
+
+
+                <!-- Email Header : BEGIN -->
+                <table align="center" width="600" class="email-container">
+                <tr>
+                    <td style="padding: 0px; text-align: center"><img src="https://kidomi.com/samsungkidsplus/02/blue-down.jpg" width="600" alt="alt_text" border="0" align="center" style="width: 100%; max-width: 600px; height: auto;"></td>
+                  </tr>
+              </table>
+                <!-- Email Header : END -->
+
+
+
+                  </div>
+
+                <!--[if gte mso 9]>
+                    </v:textbox>
+                    </v:rect>
+                    <![endif]--></td>
+              </tr>
+            <!-- Background Image with Text : END -->
+
+
+            <tr>
+                <td background="" bgcolor="#ffffff" valign="middle" style="text-align: center; background-position: center center !important; background-size: cover !important;"><!--[if gte mso 9]>
+                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:175px; background-position: center center !important;">
+                    <v:fill type="tile" src="assets/Responsive/Image_600x230.png" color="#222222" />
+                    <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+
+
+                <div width="100%">  <!-- Unsubscribe -->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="90%">
+                  <tr>
+                      <td style="text-align: center; padding: 30px 15px 30px 15px; font-size: 12px; mso-height-rule: exactly; line-height: 20px; color: #333333; ">
+                        SamsungKids<br>
+                        85 Challenger Road, Ridgefield Park, NJ 07660<br>
+                        <a href="[unsubscribe]">Click here to unsubscribe.</a>
+                      </td>
+                    </tr>
+                </table>
+              </div>
+
+                <!--[if gte mso 9]>
+                    </v:textbox>
+                    </v:rect>
+                    <![endif]--></td>
+              </tr>
+            <!-- Background Image with Text : END -->
+
+            <!-- Two Even Columns : BEGIN -->
+            <tr> </tr>
+            <!-- Two Even Columns : END -->
+
+            <!-- Three Even Columns : BEGIN -->
+            <tr> </tr>
+            <!-- Three Even Columns : END -->
+
+            <!-- Thumbnail Left, Text Right : BEGIN -->
+            <tr> </tr>
+            <!-- Thumbnail Left, Text Right : END -->
+
+            <!-- Thumbnail Right, Text Left : BEGIN -->
+            <tr> </tr>
+            <!-- Thumbnail Right, Text Left : END -->
+
+          </table>
+            <!-- Email Body : END -->
+
+            <!-- Email Footer : BEGIN -->
+            <table align="center" width="600" class="email-container">
+            <tr> </tr>
+          </table>
+            <!-- Email Footer : END -->
+
+          </center></td>
+      </tr>
+    </table>
+</body>
+</html>

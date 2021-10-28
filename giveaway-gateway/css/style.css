@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+body {
+	background-image:url(../images/background.jpg);
+		background-position:center top;
+		background-repeat: no-repeat;
+	  background-color: #dbb875;
+	  margin: 0 !important;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.message {
+	width: 100%;
+	margin-top: 30px;
+}
+
+.widget {
+	float: left;
+	width: 47%;
+}
+
+.image {
+	float: right;
+	width: 50%;
+	margin-top: 200px;
+}
+
+.footer { 
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/* position: fixed;  */
+	bottom: 0 !important;
+	text-align: center;
+	background-color: rgba(181, 137, 71, 0.5);
+	margin-top: 50px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+
+@media only screen and (max-width: 600px) {
+	.container { /* background-color: yellow; */
+		
+	}
+	body {
+		background-image:url(../images/background-mobile.jpg);
+		background-position:center top;
+		background-size: 600px;
+	}
+
+	.message {
+		width: 100%;
+		max-width: 360px;
+		padding-bottom: 160px;
+		margin-top: 10px !important;
+	}
+
+	.widget {
+		float: none;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 60px;
+	}
+
+	.footer { 
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-top: 100px;
+		bottom: 0;
+		text-align: center;
+		display: contents;
+		background-color: #b58947;
+	}
+
+	.image {
+		float: right;
+		width: 100%;
+		margin-top: 0px;
+	}
+
+}
+
+@media only screen and (min-width: 601px) {
+	.container { /* background-color: red; */
+		max-width: 750px;
+	}
+	body {
+			background-size: 1600px;
+	}
+
+}
+
+@media only screen and (min-width: 769px) {
+	.container { /* background-color: blue; */
+		max-width: 900px;
+	}
+	body {
+			background-size: 1800px;
+	}
+
+}
+
+@media only screen and (min-width: 1041px) {
+	.container { /* background-color: green; */
+		max-width: 1200px;
+	}
+	body {
+			background-size: 2000px;
+	}
+
+}
